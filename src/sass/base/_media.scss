@@ -19,3 +19,28 @@
         margin-bottom: 50px;
     }
 }
+@media (max-width: 425px) {
+    .header {
+        padding: 0 10px;
+    }
+    .header .header__logo{
+        img{
+            width: 90%;
+        }
+    }
+    .header__contacts .header__phone {
+        font-size: 15px;
+    }
+    .header__contacts button {
+        width: 140px;
+    }
+    .promo__wrapper .promo__icons {
+        width: 100%;
+    }
+    .promo__wrapper {
+        button {
+            width: 250px;
+        }
+    }
+        
+}
